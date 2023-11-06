@@ -1,0 +1,18 @@
+/* Apply a scale transform to elements with the "selected" class */
+.selected {
+    background-color: #f8f8f8; /* Change the background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Add smooth transitions */
+    color: black;
+}
+
+
+/* Apply a scale transform to menu items on hover */
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s; /* Add a smooth transition effect */
+    background-color: white !important;
+    margin-bottom: 2vh;
+    color:black;
+
+}
